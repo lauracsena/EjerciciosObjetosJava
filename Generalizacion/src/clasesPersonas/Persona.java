@@ -1,4 +1,5 @@
-public class Generalizacion {
+package clasesPersonas;
+public class Persona {
     private String nombre;
     private int edad;
 
