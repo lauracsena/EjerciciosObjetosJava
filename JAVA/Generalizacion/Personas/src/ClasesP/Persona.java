@@ -1,4 +1,4 @@
-package clasesPersonas;
+package ClasesP;
 public class Persona {
     private String nombre;
     private int edad;
@@ -7,6 +7,7 @@ public class Persona {
 
     }
 
+    //asignar valor set
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
@@ -14,7 +15,7 @@ public class Persona {
     public void setEdad(int edad) {
         this.edad = edad;
     }
-
+    //mostrar/retornar get
     public String getNombre(){
         return nombre;
     }

@@ -1,9 +1,11 @@
-public class cliente {
+package clasesComprobantes;
+public class Cliente {
     private int codigo;
     private String razonSocial;
 
-    public cliente(){
-
+    public Cliente(int c, String r){
+            setCodigo(c);
+            setRazonSocial(r);
     }
 
     public int getCodigo(){
