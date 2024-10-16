@@ -12,14 +12,15 @@ public class Persona {
         this.nombre = nombre;
     }
 
+    //mostrar o retornar get
+    public String getNombre(){
+    return nombre;
+    }
+
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    //mostrar/retornar get
-    public String getNombre(){
-        return nombre;
-    }
-
+    
     public int getEdad(){
         return edad;
     }

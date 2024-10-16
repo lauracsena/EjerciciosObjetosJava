@@ -7,20 +7,20 @@ public class Profesor extends Persona {
 
     }
 
-    public void setMateria(String mat){
-        this.materia = mat;
+    public void setMateria(String materia){
+        this.materia = materia;
     }
 
     public String getMateria(){
         return materia;
-   }
+    }
 
-    public void setCargo(String car){
-        this.cargo = car;
+    public void setCargo(String cargo){
+        this.cargo = cargo;
     }
 
     public String getCargo(){
         return cargo;
-   }
+    }
 
 }

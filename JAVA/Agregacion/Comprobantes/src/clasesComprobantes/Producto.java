@@ -14,21 +14,23 @@ public class Producto {
         this.codigo = val;
     }
 
+    public int getCodigo() {
+        return codigo;
+    }
+
+
     public void setDescripcion(String val) {
         this.descripcion = val;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
     }
 
     public void setPrecio(float val) {
         this.precio = val;
     }
 
-    public int getCodigo() {
-        return codigo;
-    }
-
-    public String getDescripcion() {
-        return descripcion;
-    }
 
     public float getPrecio() {
         return precio;

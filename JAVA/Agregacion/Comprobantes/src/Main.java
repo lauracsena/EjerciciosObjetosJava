@@ -1,8 +1,5 @@
 package clasesComprobantes;
-import clasesComprobantes.Fecha;
-import clasesComprobantes.Producto;
-import clasesComprobantes.Cliente;
-import clasesComprobantes.Factura;
+
 
 public class Main {
 public static void main(String[] args) {

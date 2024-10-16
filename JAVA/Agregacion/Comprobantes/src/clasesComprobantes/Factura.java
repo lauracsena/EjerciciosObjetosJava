@@ -8,7 +8,7 @@ public class Factura extends Comprobante {
     private Cliente mCliente;
 
     public Factura(int t, int n, Fecha f, Cliente cli) {
-        super(t, n,f);
+        super(t,n,f);
         setCliente(cli);
     }
 

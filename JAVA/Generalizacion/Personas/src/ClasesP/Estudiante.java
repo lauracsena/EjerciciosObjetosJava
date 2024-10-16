@@ -7,17 +7,17 @@ public class Estudiante extends Persona{
 
     }
 
-    public void setCarrera(String car){
-        this.carrera = car;
-    }
-
-    public void setLegajo(int leg){
-        this.legajo = leg;
+    public void setCarrera(String carrera){
+        this.carrera = carrera;
     }
 
     public String getCarrera(){
         return carrera;
     } 
+
+    public void setLegajo(int legajo){
+        this.legajo = legajo;
+    }
 
     public int getLegajo(){
         return legajo;

@@ -11,28 +11,28 @@ public class Comprobante {
         setTipo(t);
     }
 
+    public void setTipo(char tipo) {
+        this.tipo = tipo;
+    }
+
     public char getTipo() {
         return tipo;
     }
 
-    public void setTipo(char val) {
-        this.tipo = val;
+    public void setNumero(int numero) {
+        this.numero = numero;
     }
 
     public int getNumero() {
         return numero;
     }
 
-    public void setNumero(int val) {
-        this.numero = val;
-    }
-
     public Fecha getFecha() {
         return fecha;
     }
 
-    public void setFecha(Fecha val) {
-        this.fecha = val;
+    public void setFecha(Fecha fecha) {
+        this.fecha = fecha;
     }
 
 }
