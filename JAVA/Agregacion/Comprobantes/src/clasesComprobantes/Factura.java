@@ -2,10 +2,9 @@ package clasesComprobantes;
 import java.util.ArrayList;
 
 public class Factura extends Comprobante {
-
-    private ArrayList<Producto> mProducto;
     private float total;
     private Cliente mCliente;
+    private ArrayList<Producto> mProducto = new ArrayList<>();
 
     public Factura(int t, int n, Fecha f, Cliente cli) {
         super(t,n,f);

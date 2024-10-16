@@ -22,15 +22,15 @@ public class Fecha {
         return anio;
     }
 
-    public void setAnio(int an) {
-        this.anio = an;
+    public void setAnio(int anio) {
+        this.anio = anio;
     }
 
-    public void setDia(int di) {
-        this.dia = di;
+    public void setDia(int dia) {
+        this.dia = dia;
     }
 
-    public void setMes(int me) {
-        this.mes = me;
+    public void setMes(int mes) {
+        this.mes = mes;
     }
 }
