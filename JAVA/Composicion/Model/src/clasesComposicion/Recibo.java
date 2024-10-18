@@ -11,7 +11,7 @@ public class Recibo extends ComprobanteC {
 
     }
 
-    public Proveedor getProvedor() {
+    public Proveedor getProveedor() {
         return proveedor;
     }
 
@@ -37,10 +37,10 @@ public class Recibo extends ComprobanteC {
 
     public void mostrar() {
         System.out.printf("Tipo: %c Número: %d \n Fecha: %d/%d/%d \n Proveedor: %s",
-        getTipo(), getNumero(), getFecha().getDia(), getFecha().getMes(), getFecha().getAnio());
+        getTipo(), getNumero(), getFecha().getDia(), getFecha().getMes(), getFecha().getAnio(), getProveedor());
 
-        System.out.printf("Codigo: %d Razon Social: %s \n",
-         proveedor.getProveedor(), razonSocial.getRazonSocial());
+        System.out.printf(" Codigo: %d Razon Social: %s \n",
+        proveedor.getCodigo(), proveedor.getRazonSocial()); 
 
         System.out.printf("Servicio Jardineria: %s Importe Total: 5.2f \n",
         getDetalle(), getTotal());
