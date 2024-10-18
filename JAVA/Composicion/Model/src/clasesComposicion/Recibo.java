@@ -36,13 +36,13 @@ public class Recibo extends ComprobanteC {
     }
 
     public void mostrar() {
-        System.out.printf("Tipo: %c Número: %d \n Fecha: %d/%d/%d \n Proveedor: %s",
-        getTipo(), getNumero(), getFecha().getDia(), getFecha().getMes(), getFecha().getAnio(), getProveedor());
-
+        System.out.printf("Tipo: %c Número: %d \n Fecha: %d/%d/%d \n",
+        getTipo(), getNumero(), getFecha().getDia(), getFecha().getMes(), getFecha().getAnio());
+        System.out.printf("Proveedor: \n");
         System.out.printf(" Codigo: %d Razon Social: %s \n",
         proveedor.getCodigo(), proveedor.getRazonSocial()); 
-
-        System.out.printf("Servicio Jardineria: %s Importe Total: 5.2f \n",
+        System.out.printf("Detalle: \n");
+        System.out.printf("Servicio Detalle: %s , Importe Total: %6.2f \n",
         getDetalle(), getTotal());
         
     }

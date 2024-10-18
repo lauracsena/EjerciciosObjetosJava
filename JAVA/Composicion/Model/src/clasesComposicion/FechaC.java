@@ -5,19 +5,19 @@ public class FechaC {
     private int mes;
     private int anio;
 
-    public FechaC() {
+    public FechaC(int dia, int mes, int anio) {
         setDia(dia);
         setMes(mes);
         setAnio(anio);
 
     }
 
-    public int getDia(int dia, int mes, int anio) {
-        return dia;
-    }
-
     public void setDia(int dia) {
         this.dia = dia;
+    }
+
+    public int getDia() {
+        return dia;
     }
 
     public int getMes() {
