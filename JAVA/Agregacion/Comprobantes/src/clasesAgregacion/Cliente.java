@@ -1,4 +1,4 @@
-package clasesComprobantes;
+package clasesAgregacion;
 public class Cliente {
     private int codigo;
     private String razonSocial;

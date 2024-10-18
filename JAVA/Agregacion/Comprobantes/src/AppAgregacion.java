@@ -1,8 +1,7 @@
-package clasesComprobantes;
+import clasesAgregacion.*;
 
-
-public class Main {
-public static void main(String[] args) {
+public class AppAgregacion {
+public static void main(String[] args) throws Exception{
 Fecha hoy = new Fecha(20,10,2011);
 Producto pro1 = new Producto(1, "Cafe", (float) 8.5);
 Producto pro2 = new Producto(2, "Media Luna", 2);

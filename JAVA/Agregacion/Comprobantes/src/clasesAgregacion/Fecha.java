@@ -1,4 +1,4 @@
-package clasesComprobantes;
+package clasesAgregacion;
 public class Fecha {
     private int dia;
     private int mes;

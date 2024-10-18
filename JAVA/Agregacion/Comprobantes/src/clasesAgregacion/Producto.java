@@ -1,4 +1,4 @@
-package clasesComprobantes;
+package clasesAgregacion;
 public class Producto {
     private int codigo;
     private String descripcion;

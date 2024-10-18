@@ -1,4 +1,4 @@
-package clasesComprobantes;
+package clasesAgregacion;
 public class Comprobante {
 
     private char tipo;
