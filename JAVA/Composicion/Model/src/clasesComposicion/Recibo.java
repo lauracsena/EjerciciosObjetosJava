@@ -6,7 +6,7 @@ public class Recibo extends ComprobanteC {
     private String detalle;
 
     public Recibo(int dia,int mes,int anio, String razonSocial, int codigo) {
-        super(dia, mes, anio); // ejecuta el constructor de la superclase
+        super(dia, mes, anio); 
         proveedor = new Proveedor(razonSocial, codigo);
 
     }
@@ -34,4 +34,17 @@ public class Recibo extends ComprobanteC {
     public void setDetalle(String detalle) {
         this.detalle = detalle;
     }
+
+    public void mostrar() {
+        System.out.printf("Tipo: %c Número: %d \n Fecha: %d/%d/%d \n Proveedor: %s",
+        getTipo(), getNumero(), getFecha().getDia(), getFecha().getMes(), getFecha().getAnio());
+
+        System.out.printf("Codigo: %d Razon Social: %s \n",
+         proveedor.getProveedor(), razonSocial.getRazonSocial());
+
+        System.out.printf("Servicio Jardineria: %s Importe Total: 5.2f \n",
+        getDetalle(), getTotal());
+        
+    }
+    
 }
