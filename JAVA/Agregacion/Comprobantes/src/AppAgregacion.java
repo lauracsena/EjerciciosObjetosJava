@@ -10,5 +10,6 @@ Factura f1 = new Factura('F', 1, hoy, cliente);
 f1.agregarProducto(pro1);
 f1.agregarProducto(pro2);
 f1.mostrar();
+
 }
 }

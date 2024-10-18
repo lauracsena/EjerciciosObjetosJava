@@ -1,16 +1,16 @@
-package clasesAgregacion;
+package clasesComposicion;
 
-public class Comprobante {
+import clasesAgregacion.Fecha;
 
-    private char tipo;
+public class ComprobanteC {
+     private char tipo;
     private int numero;
     private Fecha fecha;
 
-    public Comprobante(char tipo, int numero, Fecha fecha) {
-        setTipo(tipo);
-        setNumero(numero);
-        setFecha(fecha);
+    public ComprobanteC(int dia, int mes, int anio) {
+        fecha = new Fecha(dia, mes, anio);
     }
+
 
     public void setTipo(char tipo) {
         this.tipo = tipo;
@@ -35,5 +35,6 @@ public class Comprobante {
     public void setFecha(Fecha fecha) {
         this.fecha = fecha;
     }
+
 
 }
